@@ -27,16 +27,11 @@ client.once('ready', async () => {
             company.price = await db.get(`company_${company.id}_price`) || company.price;
         }
         console.log(`
-            ██╗    ██╗██╗ ██████╗██╗  ██╗    ███████╗████████╗██╗   ██╗██████╗ ██╗ ██████╗ 
-            ██║    ██║██║██╔════╝██║ ██╔╝    ██╔════╝╚══██╔══╝██║   ██║██╔══██╗██║██╔═══██╗
-            ██║ █╗ ██║██║██║     █████╔╝     ███████╗   ██║   ██║   ██║██║  ██║██║██║   ██║
-            ██║███╗██║██║██║     ██╔═██╗     ╚════██║   ██║   ██║   ██║██║  ██║██║██║   ██║
-            ╚███╔███╔╝██║╚██████╗██║  ██╗    ███████║   ██║   ╚██████╔╝██████╔╝██║╚██████╔╝
-             ╚══╝╚══╝ ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝ 
+           
                 `);
         console.log(`Bot is Ready! ${client.user.tag}!`);
-        console.log(`Code by Wick Studio`);
-        console.log(`discord.gg/wicks`);
+        console.log(`Code by Kai`);
+
     } catch (error) {
         console.error('Error during initialization:', error);
     }
